@@ -1,7 +1,7 @@
 
 # Personalised Recommendation System for a Content Feed
 
-This repository contains code for building a recommendation system after finding similarity measurements using cosine similarity. The system is trained on a dataset with user interactions and item features.
+This repository contains code for building a recommendation system after finding similarity measurements using cosine similarity. The model undergoes training using 70% of the provided dataset.
 
 ## Data
 
@@ -38,4 +38,3 @@ conda install pandas numpy scikit-learn
 
 The recommendation system achieved an accuracy of 98% on the test set. Adjustments to the similarity threshold and interaction rates can be made based on specific requirements.
 
-Feel free to explore and modify the code based on your needs.
